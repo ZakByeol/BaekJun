@@ -13,7 +13,6 @@ int GetAlpaCount(char Input[]){
     }
     return result_count;
 }
-
 int main(){
 /*
  * 반복문으로 입력값 전체를 스캔함, 이후에 크로아티아 알파벳을

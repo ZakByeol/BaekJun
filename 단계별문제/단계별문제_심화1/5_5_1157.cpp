@@ -3,10 +3,8 @@
 // 아직 덜 품
 bool GetTrue(char Input[]){
 
-
     return true;
 }
-
 int main(){
     char Input_value[10],Storage_value[10];
     int count[100];
