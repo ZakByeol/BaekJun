@@ -43,6 +43,7 @@ print(H, M)
 # 이렇게 하니까 됨... 뭐지..?
 # 알아보니 해당 백준 사이트에서 값을 입력할때 '첫째줄'에서 할당과정이 일어나기 때문에
 # split함수를 쓰면서 코드를 짜야함
+
 while 1:
 	H,M = map(int, input().split())
 	if H >= 0 and H<=23 and M>= 0 and M<=59:

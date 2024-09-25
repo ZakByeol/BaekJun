@@ -1,4 +1,4 @@
-#include "Header.h"
+#include <cstdio>
 
 int main(){
     int input_value;
