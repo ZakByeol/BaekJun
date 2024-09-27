@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <ctype.h>
 
 int checkalpha(char C){
     if(C<='Z' && C>='A') return 1;
@@ -20,12 +19,12 @@ int main() {
     int Input_num = strlen(Input);
 
     // 입력값의 소문자를 대문자로 만들어줌
-    for (int i = 0; i < Input_num; ++i) {
-        if (checkalpha(Input[i]) == 1) {
-            if (islower(Input[i])!=0) {
-                Input[i] = toupper(Input[i]);
-            }
+    int upper_count = 0;
+    while(Input[upper_count]){
+        if(Input[upper_count]>='a' && Input[upper_count]<='z'){
+            Input[upper_count]=Input[upper_count]-32;
         }
+        upper_count++;
     }
 
     // 알파벳 호출 횟수 구하는 코드
