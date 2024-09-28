@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Out 단계별문제/단계별문제_2차원배열/6_2_2566.cpp)
+add_executable(Out 단계별문제/단계별문제_2차원배열/6_3_10798.cpp)
