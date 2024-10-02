@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Out 단계별문제/단계별문제_일반수학1/7_2_11005.cpp)
+add_executable(Out 단계별문제/단계별문제_일반수학1/7_4_2903.cpp)
