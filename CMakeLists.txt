@@ -3,4 +3,4 @@ project(BaekJun)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Out 단계별문제/단계별문제_12_브루트포스/13_3_19532_수학은비대면강의입니다.cpp)
+add_executable(Out "[Solved] Class 3/7_1003_피보나치함수_실3/메모리초과 개선 코드.cpp")
